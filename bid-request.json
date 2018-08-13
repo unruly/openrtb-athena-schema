@@ -1,0 +1,37 @@
+{
+  "id": "string",
+  "imp": [{
+    "id": "string",
+    "banner": {
+      "w": "integer",
+      "h": "integer",
+      "id": "string",
+      "pos": "integer",
+      "btype": ["integer"],
+      "battr": ["integer"],
+      "mimes": ["string"],
+      "topframe": "integer",
+      "expdir": ["integer"],
+      "api": ["integer"]
+    },
+    "video": {},
+    "displaymanager": "string",
+    "displaymanagerver": "string",
+    "instl": "integer",
+    "tagid": "string",
+    "bidfloor": "float",
+    "bidfloorcur": "string",
+    "iframebuster": [ "string" ]
+  }],
+  "site": {},
+  "app": {},
+  "device": {},
+  "user": {},
+  "at": "integer",
+  "tmax": "integer",
+  "wseat": ["string"],
+  "allimps": "integer",
+  "cur":  ["string"],
+  "bcat": ["string"],
+  "badv": ["string"]
+}
