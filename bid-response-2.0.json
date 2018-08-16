@@ -1,0 +1,23 @@
+{
+  "id": "string",
+  "bidid": "string",
+  "cur": "string",
+  "customdata": "string",
+  "seatbid": [{
+    "seat": "string",
+    "group": "int",
+    "bid": [{
+      "id": "string",
+      "impid": "string",
+      "price": "float",
+      "adid": "string",
+      "nurl": "string",
+      "adm": "string",
+      "adomain": ["string"],
+      "iurl": "string",
+      "cid": "string",
+      "crid": "string",
+      "attr": ["int"]
+    }]
+  }]
+}

@@ -36,4 +36,6 @@ class AthenaSchemaFromJson(object):
 
 
 if __name__ == '__main__':
-    AthenaSchemaFromJson('bid-request-2.0.json').generate()
+
+    for schema in ['bid-request-2.0.json', 'bid-response-2.0.json']:
+        AthenaSchemaFromJson(schema).generate()
