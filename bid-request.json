@@ -125,6 +125,37 @@
       }
     }
   },
+  "device": {
+    "dnt": "int",
+    "ua": "string",
+    "ip": "string",
+    "didsha1": "string",
+    "didmd5": "string",
+    "dpidsha1": "string",
+    "dpidmd5": "string",
+    "ipv6": "string",
+    "carrier": "string",
+    "language": "string",
+    "make": "string",
+    "model": "string",
+    "os": "string",
+    "osv": "string",
+    "js": "int",
+    "connectiontype": "int",
+    "devicetype": "int",
+    "flashver": "string",
+    "geo": {
+      "lat": "float",
+      "lon": "float",
+      "country": "string",
+      "region": "string",
+      "regionfips104": "string",
+      "metro": "string",
+      "city": "string",
+      "zip": "string",
+      "type": "int"
+    }
+  },
   "at": "int",
   "tmax": "int",
   "wseat": ["string"],
