@@ -42,7 +42,89 @@
     "bidfloorcur": "string",
     "iframebuster": [ "string" ]
   }],
-
+  "site":{
+    "id": "string",
+    "name": "string",
+    "domain": "string",
+    "cat": ["string"],
+    "sectioncat": ["string"],
+    "pagecat": ["string"],
+    "privacypolicy": "int",
+    "ref": "string",
+    "search": "string",
+    "keywords": "string",
+    "publisher": {
+      "id": "string",
+      "name": "string",
+      "cat": ["string"],
+      "domain": "string"
+    },
+    "content": {
+      "id": "string",
+      "episode": "int",
+      "title": "string",
+      "series": "string",
+      "season": "string",
+      "url": "string",
+      "cat": ["string"],
+      "videoquality": "int",
+      "keywords": "string",
+      "contentrating": "string",
+      "userrating": "string",
+      "context": "string",
+      "livestream": "int",
+      "sourcerelationship": "int",
+      "len": "int",
+      "producer": {
+        "id": "string",
+        "name": "string",
+        "cat": ["string"],
+        "domain": "string"
+      }
+    }
+  },
+  "app": {
+    "id": "string",
+    "name": "string",
+    "domain": "string",
+    "cat": ["string"],
+    "sectioncat": ["string"],
+    "pagecat": ["string"],
+    "ver": "string",
+    "bundle": "string",
+    "privacypolicy": "int",
+    "paid": "int",
+    "keywords": "string",
+    "publisher": {
+      "id": "string",
+      "name": "string",
+      "cat": ["string"],
+      "domain": "string"
+    },
+    "content": {
+      "id": "string",
+      "episode": "int",
+      "title": "string",
+      "series": "string",
+      "season": "string",
+      "url": "string",
+      "cat": ["string"],
+      "videoquality": "int",
+      "keywords": "string",
+      "contentrating": "string",
+      "userrating": "string",
+      "context": "string",
+      "livestream": "int",
+      "sourcerelationship": "int",
+      "len": "int",
+      "producer": {
+        "id": "string",
+        "name": "string",
+        "cat": ["string"],
+        "domain": "string"
+      }
+    }
+  },
   "at": "int",
   "tmax": "int",
   "wseat": ["string"],
