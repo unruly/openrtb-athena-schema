@@ -5,6 +5,7 @@ import json
 class AthenaSchemaFromJson(object):
 
     def __init__(self, file_name):
+        self.file_name = file_name
         with open(file_name) as schema:
             self.json = json.load(schema)
 
@@ -27,7 +28,11 @@ class AthenaSchemaFromJson(object):
             return e
 
     def generate(self):
-        print(self.get_type(self.json))
+        print("*** Generating schema for [%s]" % self.file_name)
+        schema_filename = self.file_name.replace(".json", ".schema")
+
+        with open(schema_filename, "w") as schema:
+            schema.write(self.get_type(self.json))
 
 
 if __name__ == '__main__':
