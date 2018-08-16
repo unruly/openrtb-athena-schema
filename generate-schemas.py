@@ -31,4 +31,4 @@ class AthenaSchemaFromJson(object):
 
 
 if __name__ == '__main__':
-    AthenaSchemaFromJson('bid-request.json').generate()
+    AthenaSchemaFromJson('bid-request-2.0.json').generate()
