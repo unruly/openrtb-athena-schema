@@ -156,6 +156,34 @@
       "type": "int"
     }
   },
+  "user": {
+    "id": "string",
+    "buyeruid": "string",
+    "yob": "int",
+    "gender": "string",
+    "keywords": "string",
+    "customdata": "string",
+    "geo": {
+      "lat": "float",
+      "lon": "float",
+      "country": "string",
+      "region": "string",
+      "regionfips104": "string",
+      "metro": "string",
+      "city": "string",
+      "zip": "string",
+      "type": "int"
+    },
+    "data": [{
+      "id": "string",
+      "name": "string",
+      "segment": [{
+        "id": "string",
+        "name": "string",
+        "value": "string"
+      }]
+    }]
+  },
   "at": "int",
   "tmax": "int",
   "wseat": ["string"],
