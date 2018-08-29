@@ -1,0 +1,1 @@
+struct<cur:string,customdata:string,seatbid:array<struct<bid:array<struct<iurl:string,nurl:string,cid:string,crid:string,price:float,adid:string,adomain:array<string>,adm:string,impid:string,id:string,attr:array<int>>>,group:int,seat:string>>,id:string,bidid:string>
